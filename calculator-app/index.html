@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aplikasi kalkulator sederhana dengan operasi dasar matematika"
+    />
+    <title>Calculator App</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display-container">
+        <input
+          type="text"
+          id="display-input"
+          aria-label="display kalkulator"
+          readonly
+        />
+      </div>
+
+      <div class="keys">
+        <button class="operator" value="percent" aria-label="persen">
+          &percnt;
+        </button>
+        <button class="operator" value="divide" aria-label="bagi">
+          &divide;
+        </button>
+        <button class="clear" value="AC" aria-label="hapus semua">AC</button>
+        <button class="clear" value="delete" aria-label="hapus">DEL</button>
+
+        <button class="number" value="7">7</button>
+        <button class="number" value="8">8</button>
+        <button class="number" value="9">9</button>
+        <button class="operator" value="times" aria-label="kali">
+          &times;
+        </button>
+
+        <button class="number" value="4">4</button>
+        <button class="number" value="5">5</button>
+        <button class="number" value="6">6</button>
+        <button class="operator" value="minus" aria-label="kurang">
+          &minus;
+        </button>
+
+        <button class="number" value="1">1</button>
+        <button class="number" value="2">2</button>
+        <button class="number" value="3">3</button>
+        <button class="operator" value="plus" aria-label="tambah">
+          &plus;
+        </button>
+
+        <button class="number zero" value="0">0</button>
+        <button class="decimal" value="decimal" aria-label="desimal">.</button>
+        <button class="equal-sign" value="equal-sign" aria-label="sama dengan">
+          =
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
