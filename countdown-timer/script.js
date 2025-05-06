@@ -18,7 +18,7 @@ const startTimer = () => {
   let minutes = parseInt(inputMinutes.value) || 0;
   let seconds = parseInt(inputSeconds.value) || 0;
 
-  //   conver total time into second
+  //   cover total time into second
   let totalTimeInSeconds = hours * 3600 + minutes * 60 + seconds;
 
   //   no input time handler
